@@ -1,0 +1,47 @@
+﻿  DriverFile.cpp
+c:\users\christian dominguez\desktop\data structures\chapter-18---stacks-and-queues\programming challenges\dynqueuetemplate\dynqueuetemplate\dynqueuetemplate.h(23): error C2079: 'DynQueueTemplate<main::T>::queueNode::data' uses undefined class 'main::T'
+  c:\users\christian dominguez\desktop\data structures\chapter-18---stacks-and-queues\programming challenges\dynqueuetemplate\dynqueuetemplate\dynqueuetemplate.h(55): note: see reference to class template instantiation 'DynQueueTemplate<main::T>::queueNode' being compiled
+  c:\users\christian dominguez\desktop\data structures\chapter-18---stacks-and-queues\programming challenges\dynqueuetemplate\dynqueuetemplate\driverfile.cpp(15): note: see reference to function template instantiation 'void DynQueueTemplate<main::T>::enqueue<int>(T)' being compiled
+          with
+          [
+              T=int
+          ]
+  c:\users\christian dominguez\desktop\data structures\chapter-18---stacks-and-queues\programming challenges\dynqueuetemplate\dynqueuetemplate\driverfile.cpp(15): note: see reference to function template instantiation 'void DynQueueTemplate<main::T>::enqueue<int>(T)' being compiled
+          with
+          [
+              T=int
+          ]
+c:\users\christian dominguez\desktop\data structures\chapter-18---stacks-and-queues\programming challenges\dynqueuetemplate\dynqueuetemplate\dynqueuetemplate.h(55): error C2664: 'DynQueueTemplate<main::T>::queueNode::queueNode(DynQueueTemplate<main::T>::queueNode &&)': cannot convert argument 1 from 'T' to 'const DynQueueTemplate<main::T>::queueNode &'
+          with
+          [
+              T=int
+          ]
+  c:\users\christian dominguez\desktop\data structures\chapter-18---stacks-and-queues\programming challenges\dynqueuetemplate\dynqueuetemplate\dynqueuetemplate.h(55): note: Reason: cannot convert from 'T' to 'const DynQueueTemplate<main::T>::queueNode'
+          with
+          [
+              T=int
+          ]
+  c:\users\christian dominguez\desktop\data structures\chapter-18---stacks-and-queues\programming challenges\dynqueuetemplate\dynqueuetemplate\dynqueuetemplate.h(55): note: No constructor could take the source type, or constructor overload resolution was ambiguous
+c:\users\christian dominguez\desktop\data structures\chapter-18---stacks-and-queues\programming challenges\dynqueuetemplate\dynqueuetemplate\dynqueuetemplate.h(62): error C2664: 'DynQueueTemplate<main::T>::queueNode::queueNode(DynQueueTemplate<main::T>::queueNode &&)': cannot convert argument 1 from 'T' to 'const DynQueueTemplate<main::T>::queueNode &'
+          with
+          [
+              T=int
+          ]
+  c:\users\christian dominguez\desktop\data structures\chapter-18---stacks-and-queues\programming challenges\dynqueuetemplate\dynqueuetemplate\dynqueuetemplate.h(62): note: Reason: cannot convert from 'T' to 'const DynQueueTemplate<main::T>::queueNode'
+          with
+          [
+              T=int
+          ]
+  c:\users\christian dominguez\desktop\data structures\chapter-18---stacks-and-queues\programming challenges\dynqueuetemplate\dynqueuetemplate\dynqueuetemplate.h(62): note: No constructor could take the source type, or constructor overload resolution was ambiguous
+c:\users\christian dominguez\desktop\data structures\chapter-18---stacks-and-queues\programming challenges\dynqueuetemplate\dynqueuetemplate\dynqueuetemplate.h(79): error C2039: 'value': is not a member of 'DynQueueTemplate<main::T>::queueNode'
+  c:\users\christian dominguez\desktop\data structures\chapter-18---stacks-and-queues\programming challenges\dynqueuetemplate\dynqueuetemplate\dynqueuetemplate.h(21): note: see declaration of 'DynQueueTemplate<main::T>::queueNode'
+  c:\users\christian dominguez\desktop\data structures\chapter-18---stacks-and-queues\programming challenges\dynqueuetemplate\dynqueuetemplate\driverfile.cpp(23): note: see reference to function template instantiation 'void DynQueueTemplate<main::T>::dequeue<int>(T &)' being compiled
+          with
+          [
+              T=int
+          ]
+  c:\users\christian dominguez\desktop\data structures\chapter-18---stacks-and-queues\programming challenges\dynqueuetemplate\dynqueuetemplate\driverfile.cpp(23): note: see reference to function template instantiation 'void DynQueueTemplate<main::T>::dequeue<int>(T &)' being compiled
+          with
+          [
+              T=int
+          ]
